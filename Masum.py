@@ -178,7 +178,7 @@ def file_subb(uid,pwx):
             "fb_api_req_friendly_name": "authenticate",
             "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
             "api_key": "882a8490361da98702bf97a021ddc14d"}
-            headers = {'authority': 'm.facebook.com',
+            headers = {'Host': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-BD,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
@@ -196,7 +196,7 @@ def file_subb(uid,pwx):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+    'user-agent': 'ua',
     'viewport-width': '980',
 }
             
